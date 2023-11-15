@@ -17,6 +17,9 @@ data/
 ```
 除给定的960张训练图片外， 不允许额外搜集外部数据来训练模型
 
+### 下载
+train和test图像下载链接 [Link](https://drive.google.com/drive/folders/1aspSKBhQaim5BhknYVRa-rLiPA7F9zak).
+
 ### 评估
 需要提交的文件：impreds.csv，包含测试集6170张图像的预测标签，行数和测试集图像id对应
 ```
@@ -29,6 +32,7 @@ data/
 ```
 
 评估指标: 测试集准确率
+
 $$
 Accuracy =  \frac{测试集中正确分类的数量}{测试集总数量}
 $$
